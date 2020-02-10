@@ -24,7 +24,7 @@ app.use(cors());
 
 
 app.get('/', (req, res) =>{
-    res.send("User data")
+    res.send("The server is running")
 })
 
 
